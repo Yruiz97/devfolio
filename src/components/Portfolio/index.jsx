@@ -16,7 +16,7 @@ import PortfolioItem from "./PortfolioItem/PortfolioItem"
 import { Slide } from "./Slide"
 
 const Portfolio = ({ projects }) => {
-  const [selected, setSelected] = useState("featured")
+  const [selected, setSelected] = useState("fullstack")
   const [data, setData] = useState([])
   const [projectList, setProjectList] = useState([])
 
@@ -30,6 +30,7 @@ const Portfolio = ({ projects }) => {
       return null
     })
     setProjectList(tempList)
+    setData(projects)
   }, [projects])
 
   useEffect(() => {
@@ -63,7 +64,7 @@ const Portfolio = ({ projects }) => {
           ))}
       </div>
       <div className="row">
-        {data.length &&
+        {!!data.length &&
           data.map((item, index) => (
             <div className="column" key={index}>
               <Slide data={item.img} alt={item.title} delayTime={index}></Slide>

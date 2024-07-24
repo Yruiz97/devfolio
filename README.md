@@ -4,7 +4,7 @@
 
 ### Demo Video (3.0) :link: https://youtu.be/GrA2i1GNmbg
 
-### Link :link: https://developerjunaid.com/
+### Link :link: https://yulianruiz-portfolio.vercel.app/
 
 ## Images
 
@@ -27,7 +27,7 @@
 ### To Run Sanity CMS Locally
 
 - Sign Up to [Sanity](https://www.sanity.io/)
-- Navigate to /portfoliosanitydata folder in project using terminal Run: `cd portfoliosanitydata`
+- Navigate to /sanitydata folder in project using terminal Run: `cd sanitydata`
 - Install dependencies Run: `npm install`
 - Install Sanity CLI Run: `npm install -g @sanity/cli`
 - Login to sanity using CLI run: `sanity login` (Select your preferred method)
@@ -36,10 +36,10 @@
 - - Create new project — Hit Enter.
 - - Your project name: — We can name it whatever we would like. Let's “Portfolio Sanity Data" for this project.
 - - Use the default dataset configuration? — The default dataset configuration has a public dataset named “production”, let's stick with that. So type in “Y” and hit Enter.
-- - Project output path: — This will show us the path where our sanity project will live. The path should show the path that leads to this: /developerFolio/portfoliosanitydata. Hit Enter.
+- - Project output path: — This will show us the path where our sanity project will live. The path should show the path that leads to this: /Portfolio/sanitydata. Hit Enter.
 - - Select project template: — Here we are going to choose “Movies (schema + Sample data)”. Using the arrow keys, navigate to that so it’s showing blue. Hit Enter once there. Success!
 - - Now Replace `schemas` folder with the folder from my repository
-- Run Sanity Studio in the browser, first navigate to sanity project : `cd portfoliosanitydata`
+- Run Sanity Studio in the browser, first navigate to sanity project : `cd sanitydata`
 - Run: `sanity start`
 - Visit  [localhost:3333](http://localhost:3333/) to view live studio and add your data
 
