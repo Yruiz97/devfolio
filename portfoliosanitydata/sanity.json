@@ -1,0 +1,30 @@
+{
+  "root": true,
+  "api": {
+    "projectId": "mr95yznh",
+    "dataset": "production"
+  },
+  "project": {
+    "name": "Portfolio Sanity Data"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool",
+    "@sanity/google-maps-input"
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        "@sanity/vision"
+      ]
+    }
+  },
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema"
+    }
+  ]
+}
