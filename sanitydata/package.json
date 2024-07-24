@@ -10,7 +10,7 @@
     "build": "sanity build",
     "deploy": "sanity deploy",
     "deploy-graphql": "sanity graphql deploy",
-    "cors": "sanity cors add http://localhost:3000"
+    "cors": "sanity cors add https://yulianruiz-portfolio.vercel.app"
   },
   "keywords": [
     "sanity"
