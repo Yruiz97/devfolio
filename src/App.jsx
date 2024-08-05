@@ -66,7 +66,6 @@ function App() {
             tempTestimonials.push(doc)
           } else if (doc.liveUrl) {
             // It is a project
-            console.log(doc)
             tempProjects.push(doc)
           } else {
             tempServices.push(doc)

@@ -2,7 +2,7 @@ import React from "react"
 import Typed from "react-typed"
 
 // SVG
-import man from "images/dev.svg"
+import man from "images/dev.png"
 
 // Animation
 import { Link } from "react-scroll"

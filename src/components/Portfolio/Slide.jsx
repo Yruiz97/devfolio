@@ -7,7 +7,7 @@ export const Slide = ({ data, alt, delayTime }) => {
     let interval;
     setTimeout(() => {
       interval = setInterval(() => {
-        setCurrent((current) => (current === data.length - 1 ? 0 : current + 1));
+        setCurrent((current) => (current + 1) % data.length);
       }, 5000);
     }, delayTime)
     
@@ -33,6 +33,7 @@ export const Slide = ({ data, alt, delayTime }) => {
       />
       {data.map((img, index) => (
         <img
+          key={img.asset.url}
           src={img.asset.url}
           alt={alt}
           style={{

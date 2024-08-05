@@ -2,8 +2,6 @@
 
 ### _Personal Portfolio built using ReactJs, Sanity CMS and Animation libraries, hope you like it. Tweak it and use it !!_
 
-### Demo Video (3.0) :link: https://youtu.be/GrA2i1GNmbg
-
 ### Link :link: https://yulianruiz-portfolio.vercel.app/
 
 ## Images
